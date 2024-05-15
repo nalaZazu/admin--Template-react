@@ -3,6 +3,7 @@ import SidebarCompoents from "../sidebarmenu";
 import { Box, Grid } from "@mui/material";
 import HeaderCompoents from "../Header";
 const Main = ({ children }) => {
+  // This page calling in the HOme page and call the compoent accordingly
   return (
     <Box compoents="div">
       <Grid container spacing={4}>

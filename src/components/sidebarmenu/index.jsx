@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { sidebarJson } from "../../constants";
 import EqualizerIcon from "@mui/icons-material/Equalizer";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#2b2c40" : "#2b2c40",
   ...theme.typography.body2,
@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
   borderRadius: "0px !important",
   height: "100vh",
 }));
-const SidebarCompoents = ({}) => {
+const SidebarCompoents = () => {
   const navigate = useNavigate();
 
   return (
